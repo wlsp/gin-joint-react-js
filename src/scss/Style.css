@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&family=Tinos:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav,
+#hero,
+h3,
+h4,
+.review > p {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+nav,
+#story,
+#menu,
+#reviews {
+  background-color: #211e1f;
+}
+
+nav {
+  height: 4rem;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  font-size: 1.5rem;
+  height: 4rem;
+}
+
+nav .active {
+  color: #bb7043;
+}
+
+#hero {
+  background: url("../images/hero-bg.png") no-repeat center/cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 100vmin;
+}
+
+#hero .hero-text {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+}
+
+#hero .hero-text h1 {
+  font-size: 6rem;
+}
+
+#hero .hero-text h2 {
+  font-size: 10rem;
+}
+
+#story,
+#menu {
+  height: 100vmin;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+#story article,
+#menu article {
+  width: 450px;
+}
+
+#story article h3,
+#menu article h3 {
+  font-size: 4rem;
+  font-weight: normal;
+  line-height: 3.5rem;
+  margin: 15px 0;
+  width: 40vw;
+}
+
+#story article h4,
+#story article p,
+#menu article h4,
+#menu article p {
+  font-weight: normal;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  width: 300px;
+}
+
+#story article button,
+#menu article button {
+  background-color: #bb7043;
+  border: none;
+  width: 192px;
+  height: 60px;
+  margin-top: 30px;
+}
+
+#story figure,
+#menu figure {
+  width: 800px;
+  margin-right: -12%;
+}
+
+#story figure img,
+#menu figure img {
+  width: 100%;
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#entertainment {
+  background-color: #bb7043;
+  height: 140vmin;
+}
+
+#entertainment .covidInfo,
+#entertainment .DayAndTime {
+  text-transform: uppercase;
+}
+
+#entertainment .covidInfo {
+  font-size: 1.1rem;
+  width: 95%;
+  padding: 5% 0 2% 20%;
+}
+
+#entertainment .scrolling-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+#entertainment .scroll {
+  text-align: center;
+  color: #fff;
+}
+
+#entertainment .arrow {
+  border: solid #000;
+  border-width: 0 0.2em 0.2em 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+#entertainment .right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+#entertainment .left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+#entertainment .card {
+  position: relative;
+  display: inline-block;
+  width: 750px;
+  margin: 2% 5%;
+}
+
+#entertainment figcaption {
+  position: absolute;
+  font-size: 2rem;
+  color: #fff;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#entertainment .gallery__img {
+  display: inline-block;
+  height: 60vmin;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid white;
+}
+
+#entertainment p {
+  font-size: 1.2rem;
+}
+
+#entertainment .DayAndTime {
+  color: #fff;
+  margin: 5% 0;
+}
+
+#entertainment .info {
+  white-space: pre-wrap;
+  width: 500px;
+}
+
+#entertainment ::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+#entertainment ::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#reviews {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+#reviews .review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border: 1px solid #7f7f7f;
+  padding: 80px;
+  border-right: none;
+}
+
+#reviews .gin {
+  border-left: none;
+}
+
+#reviews h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin: 5% 0;
+}
+
+#reviews figure {
+  height: 500px;
+}
+
+#reviews figure img {
+  height: 100%;
+}
+
+#footer {
+  background-color: #211e1f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+
+#footer .infos,
+#footer .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  padding: 5% 0;
+}
+
+#footer .infos h4,
+#footer .logo h4 {
+  color: #bb7043;
+  font-size: 1.3rem;
+}
+
+#footer .infos ul,
+#footer .logo ul {
+  list-style-type: none;
+}
+
+#footer .infos ul li,
+#footer .logo ul li {
+  color: #fff;
+  width: 17rem;
+  line-height: 1.8rem;
+}
+
+#footer .infos img,
+#footer .logo img {
+  margin-left: 70%;
+}
+
+#footer .infos .openingHours,
+#footer .logo .openingHours {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+#footer .downLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  position: relative;
+  border-top: 1px solid #7f7f7f;
+  padding: 5%;
+}
+
+#footer .socialMedia {
+  position: absolute;
+  right: 15%;
+}
+/*# sourceMappingURL=style.css.map */
