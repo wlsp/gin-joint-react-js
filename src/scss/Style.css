@@ -48,7 +48,7 @@ nav .active {
 }
 
 #hero {
-  background: url("../images/hero-bg.png") no-repeat center/cover;
+  background: url("../img/hero-bg.png") no-repeat center/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
