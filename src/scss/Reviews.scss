@@ -1,0 +1,31 @@
+$main-font-color: #fff;
+
+#reviews {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .review {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: 1px solid #7f7f7f;
+      padding: 80px;
+      border-right: none;
+    }
+    .gin {
+      border-left: none;
+    }
+    h2 {
+      color: $main-font-color;
+      font-size: 1.8rem;
+      font-weight: normal;
+      margin: 5% 0;
+    }
+    figure {
+      height: 500px;
+      img {
+        height: 100%;
+      }
+    }
+  }

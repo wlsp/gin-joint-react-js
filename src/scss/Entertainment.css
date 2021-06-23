@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&family=Tinos:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#entertainment {
+  background-color: #bb7043;
+  height: 140vmin;
+}
+
+#entertainment .covidInfo,
+#entertainment .DayAndTime {
+  text-transform: uppercase;
+}
+
+#entertainment .covidInfo {
+  font-size: 1.1rem;
+  width: 95%;
+  padding: 5% 0 2% 20%;
+}
+
+#entertainment .scrolling-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+#entertainment .scroll {
+  text-align: center;
+  color: #fff;
+}
+
+#entertainment .arrow {
+  border: solid #000;
+  border-width: 0 0.2em 0.2em 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+#entertainment .right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+#entertainment .left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+#entertainment .card {
+  position: relative;
+  display: inline-block;
+  width: 750px;
+  margin: 2% 5%;
+}
+
+#entertainment figcaption {
+  position: absolute;
+  font-size: 2rem;
+  color: #fff;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#entertainment .gallery__img {
+  display: inline-block;
+  height: 60vmin;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid white;
+}
+
+#entertainment p {
+  font-size: 1.2rem;
+}
+
+#entertainment .DayAndTime {
+  color: #fff;
+  margin: 5% 0;
+}
+
+#entertainment .info {
+  white-space: pre-wrap;
+  width: 500px;
+}
+
+#entertainment ::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+#entertainment ::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=Entertainment.css.map */

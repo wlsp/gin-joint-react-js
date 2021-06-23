@@ -1,4 +1,5 @@
 import EntertainmentData from '../data/Entertainment.json'
+import '../scss/Entertainment.css'
 
 const Entertainment = () => {
     return (

@@ -1,0 +1,53 @@
+// Colors
+$main-bg-color: #211e1f;
+$second-color: #bb7043;
+$main-font-color: #fff;
+
+#footer {
+  background-color: $main-bg-color;
+  display: flex;
+  height: 90vh;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  overflow: hidden;
+  .infos,
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 5% 0;
+    h4 {
+      color: $second-color;
+      font-size: 1.3rem;
+    }
+    ul {
+      list-style-type: none;
+      li {
+        color: $main-font-color;
+        width: 17rem;
+        line-height: 1.8rem;
+      }
+    }
+    img {
+      margin-left: 70%;
+    }
+    .openingHours {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+  }
+  .downLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    border-top: 1px solid #7f7f7f;
+    padding: 5%;
+  }
+  .socialMedia {
+    position: absolute;
+    right: 15%;
+  }
+}

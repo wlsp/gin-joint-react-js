@@ -1,4 +1,4 @@
-
+import '../scss/Reviews.css'
 
 const Reviews = () => {
     return (

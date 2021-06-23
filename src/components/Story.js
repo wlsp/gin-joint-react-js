@@ -1,4 +1,4 @@
-
+import '../scss/StoryMenu.css'
 
 const Story = () => {
     return (

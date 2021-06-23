@@ -1,0 +1,77 @@
+#footer {
+  background-color: #211e1f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+
+#footer .infos,
+#footer .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  padding: 5% 0;
+}
+
+#footer .infos h4,
+#footer .logo h4 {
+  color: #bb7043;
+  font-size: 1.3rem;
+}
+
+#footer .infos ul,
+#footer .logo ul {
+  list-style-type: none;
+}
+
+#footer .infos ul li,
+#footer .logo ul li {
+  color: #fff;
+  width: 17rem;
+  line-height: 1.8rem;
+}
+
+#footer .infos img,
+#footer .logo img {
+  margin-left: 70%;
+}
+
+#footer .infos .openingHours,
+#footer .logo .openingHours {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+#footer .downLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  position: relative;
+  border-top: 1px solid #7f7f7f;
+  padding: 5%;
+}
+
+#footer .socialMedia {
+  position: absolute;
+  right: 15%;
+}
+/*# sourceMappingURL=Footer.css.map */

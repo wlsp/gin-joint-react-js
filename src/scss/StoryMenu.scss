@@ -1,0 +1,55 @@
+
+// Colors
+$main-bg-color: #211e1f;
+$second-color: #bb7043;
+$main-font-color: #fff;
+$section-height: 100vmin;
+
+// Text-transform
+$text-uppercase: uppercase;
+
+
+// Story and Menu Section 
+#story,
+#menu {
+  height: $section-height;
+  color: $main-font-color;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+
+  article {
+    width: 450px;
+    h3 {
+      font-size: 4rem;
+      font-weight: normal;
+      line-height: 3.5rem;
+      margin: 15px 0;
+      width: 40vw;
+    }
+    h4,
+    p {
+      font-weight: normal;
+      line-height: 2rem;
+      font-size: 1.2rem;
+      width: 300px;
+    }
+    button {
+      background-color: $second-color;
+      border: none;
+      width: 192px;
+      height: 60px;
+      margin-top: 30px;
+    }
+  }
+  figure {
+    width: 800px;
+    margin-right: -12%;
+    img {
+      width: 100%;
+      height: 550px;
+      object-fit: cover;
+    }
+  }
+}
