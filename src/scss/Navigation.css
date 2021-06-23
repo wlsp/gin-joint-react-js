@@ -17,7 +17,12 @@ nav ul {
   height: 4rem;
 }
 
-nav .active {
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav .isActive {
   color: #bb7043;
 }
 /*# sourceMappingURL=Navigation.css.map */

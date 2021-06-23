@@ -3,7 +3,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 90vh;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -20,8 +19,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 50%;
-  padding: 5% 0;
+  width: 40%;
+  padding: 3% 0;
 }
 
 #footer .infos h4,
@@ -38,7 +37,7 @@
 #footer .infos ul li,
 #footer .logo ul li {
   color: #fff;
-  width: 17rem;
+  width: 10rem;
   line-height: 1.8rem;
 }
 
@@ -67,7 +66,11 @@
   width: 100%;
   position: relative;
   border-top: 1px solid #7f7f7f;
-  padding: 5%;
+  padding: 3%;
+}
+
+#footer .downLogo img {
+  width: 75%;
 }
 
 #footer .socialMedia {

@@ -1,0 +1,36 @@
+#shop figure {
+  height: 90vmin;
+  width: 100%;
+}
+
+#shop figure img {
+  height: 100%;
+  width: 100%;
+}
+
+#shop article {
+  position: relative;
+  height: 100vmin;
+  background-color: #bb7043;
+}
+
+#shop article div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#shop article div h1 {
+  font-size: 5rem;
+  font-weight: normal;
+}
+
+#shop article div h1:nth-of-type(2) {
+  font-weight: bold;
+  text-align: justify;
+  letter-spacing: .25rem;
+  word-spacing: 1rem;
+}
+/*# sourceMappingURL=Shop.css.map */

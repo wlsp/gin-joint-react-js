@@ -1,17 +1,31 @@
-import '../scss/Navigation.css'
+import {
+    NavLink
+} from "react-router-dom"
+
+import '../scss/Navigation.css';
 
 const Navigation = () => {
-    return ( 
+    return (
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Entertainmet</li>
-                <li>Shop</li>
-                <li>Events</li>
-                <li>Contact</li>
+                <li>
+                    <NavLink exact to="/" activeClassName="isActive">Home</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/entertainment" activeClassName="isActive">Entertainment</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/shop" activeClassName="isActive">Shop</NavLink>
+                </li>
+                <li>
+                    <NavLink to="" activeClassName="isActive">Events</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/contact" activeClassName="isActive">Contact</NavLink>
+                </li>
             </ul>
         </nav>
-     );
+    );
 }
- 
+
 export default Navigation;

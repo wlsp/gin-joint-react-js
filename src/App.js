@@ -1,25 +1,28 @@
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
 import Navigation from './components/Navigation';
-import Hero from './components/Hero';
-import Story from './components/Story';
+import Home from "./components/Home";
 import Entertainment from './components/Entertainment';
-import FoodAndDrinks from './components/Food-Drinks';
-import Reviews from './components/Reviews';
-import Footer from './components/Footer';
-
-
+import Contact from "./Pages/Contact";
+import Footer from "./components/Footer";
+import Shop from "./Pages/Shop";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Navigation />
-      <Hero/>
-      <Story />
-      <Entertainment />
-      <FoodAndDrinks />
-      <Reviews />
+      <Switch>
+        <Route path="/entertainment" component={Entertainment} />
+        <Route path="/shop" component={Shop} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/" exact component={Home} />
+      </Switch>
       <Footer />
-    </div>
+    </Router>
   );
 }
 

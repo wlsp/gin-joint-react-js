@@ -6,7 +6,6 @@ $main-font-color: #fff;
 #footer {
   background-color: $main-bg-color;
   display: flex;
-  height: 90vh;
   justify-content: space-evenly;
   flex-wrap: wrap;
   overflow: hidden;
@@ -14,8 +13,8 @@ $main-font-color: #fff;
   .logo {
     display: flex;
     justify-content: space-between;
-    width: 50%;
-    padding: 5% 0;
+    width: 40%;
+    padding: 3% 0;
     h4 {
       color: $second-color;
       font-size: 1.3rem;
@@ -24,7 +23,7 @@ $main-font-color: #fff;
       list-style-type: none;
       li {
         color: $main-font-color;
-        width: 17rem;
+        width: 10rem;
         line-height: 1.8rem;
       }
     }
@@ -44,7 +43,10 @@ $main-font-color: #fff;
     width: 100%;
     position: relative;
     border-top: 1px solid #7f7f7f;
-    padding: 5%;
+    padding: 3%;
+    img {
+      width: 75%;
+    }
   }
   .socialMedia {
     position: absolute;

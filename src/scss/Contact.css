@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&family=Tinos:wght@400;700&display=swap");
+#contact {
+  display: -ms-grid;
+  display: grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  max-width: 100%;
+}
+
+#contact .experience {
+  background-color: #bb7043;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact .experience div {
+  width: 50%;
+}
+
+#contact .experience h1 {
+  color: #fff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 2% 0;
+}
+
+#contact .experience p:nth-of-type(1) {
+  text-transform: uppercase;
+}
+
+#contact .experience p:nth-of-type(2) {
+  width: 80%;
+}
+
+#contact .neonLogo {
+  height: 70vmin;
+}
+
+#contact .neonLogo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#contact .address {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  height: 100vmin;
+  background: url("../img/ny-by-night.png") no-repeat center/cover;
+  position: relative;
+}
+
+#contact .address h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 30rem;
+  height: 12rem;
+  background-color: #bb7043;
+  text-align: center;
+}
+
+#contact .formular {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 50px;
+  background-color: #bb7043;
+}
+
+#contact .formular input,
+#contact .formular #text {
+  font-size: 1rem;
+  display: block;
+  width: 550px;
+  margin: 2.5%;
+  padding: 10px;
+  border: none;
+}
+
+#contact .formular input::-webkit-input-placeholder,
+#contact .formular #text::-webkit-input-placeholder {
+  font-family: "Roboto";
+  color: #000;
+}
+
+#contact .formular input:-ms-input-placeholder,
+#contact .formular #text:-ms-input-placeholder {
+  font-family: "Roboto";
+  color: #000;
+}
+
+#contact .formular input::-ms-input-placeholder,
+#contact .formular #text::-ms-input-placeholder {
+  font-family: "Roboto";
+  color: #000;
+}
+
+#contact .formular input::placeholder,
+#contact .formular #text::placeholder {
+  font-family: "Roboto";
+  color: #000;
+}
+
+#contact .formular button {
+  background-color: #211e1f;
+  color: #fff;
+  font-size: 1rem;
+  width: 192px;
+  height: 60px;
+  padding: 15px;
+  margin: 0 0 0 2.5%;
+  border: none;
+}
+
+#contact .findUs div:nth-of-type(1) {
+  margin-bottom: 15%;
+}
+
+#contact .findUs div:nth-of-type(1) ul {
+  font-size: 1.8rem;
+  margin-top: 5%;
+}
+
+#contact .findUs h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+#contact .findUs ul {
+  list-style-type: none;
+  color: #fff;
+}
+
+#contact .findUs .openingHours {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+/*# sourceMappingURL=Contact.css.map */

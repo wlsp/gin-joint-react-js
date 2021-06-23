@@ -1,5 +1,7 @@
-// Color
+// Colors
+$main-bg-color: #211e1f;
 $second-color: #bb7043;
+$main-font-color: #fff;
 
 // Navbar
 nav {
@@ -11,8 +13,12 @@ nav {
     list-style: none;
     font-size: 1.5rem;
     height: 4rem;
+    a {
+      color: $main-font-color;
+      text-decoration: none;
+    }
   }
-  .active {
+  .isActive {
     color: $second-color;
   }
 }

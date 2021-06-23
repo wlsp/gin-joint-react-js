@@ -1,3 +1,5 @@
+import React from "react";
+
 import EntertainmentData from '../data/Entertainment.json'
 import '../scss/Entertainment.css'
 
