@@ -2,6 +2,7 @@
 
 #  [Here you can take a look 👀](https://bathtube-gin-joint.netlify.app/).
 
+Tools: React, Javascript, SASS 
 
 "Aufgabenstellung
 
